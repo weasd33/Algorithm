@@ -1,6 +1,7 @@
 package Programmers;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 // 코딩테스트 연습 > 연습문제 > 직사각형 별찍기
 // https://school.programmers.co.kr/learn/courses/30/lessons/12969
@@ -18,6 +19,7 @@ import java.util.Scanner;
 
 public class No01 {
 	
+	/*
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -33,5 +35,18 @@ public class No01 {
 			}
 			System.out.println();
 		}
+	}
+	*/
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		// n = 가로, m = 세로
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		
+		StringBuilder sb = new StringBuilder();
+		IntStream.range(0, n).forEach(s -> sb.append("*"));
+		IntStream.range(0, m).forEach(s -> System.out.println(sb.toString()));
 	}
 }
