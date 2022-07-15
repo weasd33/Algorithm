@@ -19,7 +19,7 @@ import java.util.stream.IntStream;
 
 public class No01 {
 	
-	/*
+	// 나의 풀이
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -36,8 +36,9 @@ public class No01 {
 			System.out.println();
 		}
 	}
-	*/
 	
+	// 다른 분의 또 다른 풀이
+	/*
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -49,4 +50,5 @@ public class No01 {
 		IntStream.range(0, n).forEach(s -> sb.append("*"));
 		IntStream.range(0, m).forEach(s -> System.out.println(sb.toString()));
 	}
+	*/
 }
