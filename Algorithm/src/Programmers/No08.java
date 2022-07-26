@@ -54,6 +54,7 @@ public class No08 {
 	}
 
 	public static void main(String[] args) {
-		solution(3, 12);
+		System.out.println("최대공약수 / 최소공배수");
+		for(int v : solution(2, 5)) { System.out.print("   " + v + "\t "); }
 	}
 }
