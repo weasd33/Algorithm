@@ -38,8 +38,6 @@ public class No31 {
 		return Math.max(count * (2 * price + (count - 1) * price) / 2 - money, 0);
 	}
 	
-	
-	
 	public static void main(String[] args) {
 		No31 test = new No31();
 		System.out.println(test.solution(3, 20, 4));
