@@ -36,7 +36,7 @@ public class No36 {
         String ternary = "";
         
         while(n > 0) {
-        	ternary += n % 3;
+        	ternary += n % 3; // 3진법 바로 뒤집기
         	n /= 3;
         }
         
@@ -45,6 +45,6 @@ public class No36 {
 	
 	public static void main(String[] args) {
 		No36 test = new No36();
-		System.out.println(test.solution(125));
+		System.out.println(test.solution(49));
 	}
 }
