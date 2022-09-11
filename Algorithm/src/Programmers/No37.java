@@ -79,7 +79,7 @@ public class No37 {
             if (i % Math.sqrt(i) == 0) {
                 answer -= i;
             }
-            //제곱수가 아닌 경우 약수의 개수가 짝수
+            //제곱수가 아닌 경우 약수의 개수가 짝수/
             else {
                 answer += i;
             }
