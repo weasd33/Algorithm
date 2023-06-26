@@ -39,7 +39,7 @@ package Programmers;
 
 public class No50 { 
 
-	public int solution(String t, String p) {
+	public int solution(String t, String p) { 
 		int result = 0;
 		
 		int pLength = p.length();
