@@ -37,7 +37,7 @@ package Programmers;
 	이중 15보다 작거나 같은 숫자는 "10", "02", "03" 이렇게 3개입니다. "02"와 "03"은 각각 2, 3에 해당한다는 점에 주의하세요.
 */
 
-public class No50 { 
+public class No50 {
 
 	public int solution(String t, String p) { 
 		int result = 0;
